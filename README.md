@@ -1,6 +1,6 @@
 # WebAppProject
 GROUP 4 **PROPOSAL REPORT**
-SECTION **Section 2**. 
+SECTION **2**. 
 
 Team Mates:
 1. **Adlin Hafidz bin Jamal Shupardi** and **2112133**
