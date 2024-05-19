@@ -1,23 +1,22 @@
 # WebAppProject
-GROUP 4 **PROPOSAL REPORT**
-SECTION **2**. 
+TITLE OF THE PROJECT :
+GROUP: 4 **PROPOSAL REPORT**
+SECTION: **2**. 
+SUBMISSION DATE: **22 MAY 2024**
 
-Team Mates:
-1. **Adlin Hafidz bin Jamal Shupardi** and **2112133**
-2. **Nur Ain binti Lizam** and **2127942**
-3. **Nur Fatihah Adawiyah binti Rusdi** and **2126644**
-3. **Aesyah Hafidzah binti Ab Rahman** and **2211158**
+TEAM MATES:
+1. **ADLIN HAFIDZ BIN JAMAL SHUPARDI** and **2112133**
+2. **NUR AIN BINTI LIZAM** and **2127942**
+3. **NUR FATIHAH ADAWIYAH BINTI RUSDI** and **2126644**
+4. **AESYAH HAFIDZAH BINTI AB RAHMAN** and **2211158**
 
-**Must include:**
-a) Name and Matric No of the group members. 
-b) Title of the project. 
-c) Introduction of the proposed web application. 
-d) The objective of the proposed web application. 
-e) Features and functionalities of the proposed web application. 
-f) Include ERD for your database tables with relationship. 
-g) A sequence diagram to represent the interaction of the proposed web application. 
-h) References. 
-i) For formatting and styling of your proposal via README.md file refer to Markdown 
-syntax. 
-j) Submit the URL of your GitHub README.md file to iTaleem and respect the 
+**1.0 INTRODUCTION**
+**2.0 OBJECTIVES**
+**3.0 FEATURES AND FUNCTIONALITIES**
+**4.0 ERD (DATABASE TABLES WITH RELATIONSHIP)**
+**5.0 SEQUENCE DIAGRAM TO REPRESENT THE INTERACTION** 
+**6.0 REFERENCES**
+
+P/S: For formatting and styling of your proposal via README.md file refer to Markdown 
+syntax. Submit the URL of your GitHub README.md file to iTaleem and respect the 
 deadline.
