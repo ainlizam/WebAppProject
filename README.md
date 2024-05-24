@@ -68,8 +68,79 @@ CONTENT OUTLINE:
    **3.11 Feedback and ratings:** Allow students to submit comments and rank sessions after attending.
 
 5. **ERD (DATABASE TABLES WITH RELATIONSHIP)**
-6. **SEQUENCE DIAGRAM TO REPRESENT THE INTERACTION** 
-7. **REFERENCES**
+
+!!P/S: Create er diagram based on the description below then paste the actual er diagram , thank you!! 
+
+Tables:
+
+Users: Stores user information (ID, name, email, password, user type).  
+
+Tutors: Stores tutor-specific information (ID, user_id, qualifications, bio).  
+
+Students: Stores student-specific information (ID, user_id, grade, preferences).  
+
+Sessions: Stores session information (ID, tutor_id, title, description, schedule, price).  
+
+Bookings: Stores booking details (ID, session_id, student_id, status, created_at).  
+
+Feedback: Stores feedback details (ID, session_id, student_id, rating, comments).   
+
+Relationships:
+
+Users (one-to-one) -> Tutors
+Users (one-to-one) -> Students
+Tutors (one-to-many) -> Sessions
+Sessions (one-to-many) -> Bookings
+Students (one-to-many) -> Bookings
+Sessions (one-to-many) -> Feedback
+Students (one-to-many) -> Feedback  
+
+7. **SEQUENCE DIAGRAM TO REPRESENT THE INTERACTION**
+
+!!P/S: Create sequence diagram based on the description below (open edit to have a proper view. the allignment was slightly run, but hopefully u still able to understand the picture) then paste the actual one below , thank you!!  
+
+   **7.1 Registration and Booking Phase:**
+
+   Student         System           Tutor
+   |               |               |
+   |---Request Booking--->|        |
+   |               |               |
+   |               |---Check Availability--->|
+   |               |               |
+   |<---Available/Full--|               |
+   |               |               |
+   |---Submit Registration--->|        |
+   |               |               |
+   |               |---Register/Waitlist--->|
+   |               |               |
+   |               |---Notify Tutor--->|
+   |               |               |
+   |               |<---Approval/Rejection--| 
+   |               |               |
+   |<---Confirmation/Rejection--|        |  
+
+   **7.2 Cancellation and Rescheduling:**  
+   
+   Student         System
+   |               |
+   |---Request Cancel/Reschedule--->|
+   |               |
+   |               |---Process Request--->|
+   |               |
+   |<---Confirmation--| 
+
+   **7.3 Feedback Submission:**  
+   
+   Student         System
+   |               |
+   |---Submit Feedback--->|
+   |               |
+   |               |---Store Feedback--->|
+   |               |
+   |<---Update Ratings--|
+
+   
+9. **REFERENCES**
 
 P/S: For formatting and styling of your proposal via README.md file refer to Markdown 
 syntax. Submit the URL of your GitHub README.md file to iTaleem and respect the 
