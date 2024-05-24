@@ -14,7 +14,7 @@ CONTENT OUTLINE:
 1. **INTRODUCTION**
 The "Online Quran Tutor Registration and Booking System" is an online tool created to make scheduling classes and registering for classes easier. Through the provision of an effective, user-friendly interface for session management, this platform seeks to streamline the interaction between instructors and students. By concentrating on essential features like scheduling and registration, the system improves learning by cutting down on administrative work and making sure instructors and students can simply manage their calendars.
 
-2. **OBJECTIVES**
+3. **OBJECTIVES**
 The Online Tutor Registration and Booking System's main goals are:
 
 **Simplify the Registration Process:** Give students access to an intuitive registration portal so they may sign up for classes.  
