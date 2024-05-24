@@ -87,12 +87,18 @@ Feedback: Stores feedback details (feedback_id, session_id, student_id, rating, 
 
 Relationships:
 
-Users (one-to-one) -> Tutors
-Users (one-to-one) -> Students
-Tutors (one-to-many) -> Sessions
-Sessions (one-to-many) -> Bookings
-Students (one-to-many) -> Bookings
-Sessions (one-to-many) -> Feedback
+Users (one-to-one) -> Tutors  
+
+Users (one-to-one) -> Students  
+
+Tutors (one-to-many) -> Sessions  
+
+Sessions (one-to-many) -> Bookings  
+
+Students (one-to-many) -> Bookings  
+
+Sessions (one-to-many) -> Feedback  
+
 Students (one-to-many) -> Feedback  
 
 7. **SEQUENCE DIAGRAM TO REPRESENT THE INTERACTION**
