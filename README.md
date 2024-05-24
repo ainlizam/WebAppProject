@@ -73,17 +73,17 @@ CONTENT OUTLINE:
 
 Tables:
 
-Users: Stores user information (ID, name, email, password, user type).  
+Users: Stores user information (user_id, full_name, email, password, gender, age, user_type (student/tutor)).  
 
-Tutors: Stores tutor-specific information (ID, user_id, qualifications, bio).  
+Tutors: Stores tutor-specific information (tutor_id, user_id, qualifications, phone_no).  
 
-Students: Stores student-specific information (ID, user_id, grade, preferences).  
+Students: Stores student-specific information (student_id, user_id, education_status, preferences (ustaz/ustazah)).  
 
-Sessions: Stores session information (ID, tutor_id, title, description, schedule, price).  
+Sessions: Stores session information (session_id, tutor_id, title, description, time, day, price).  
 
-Bookings: Stores booking details (ID, session_id, student_id, status, created_at).  
+Bookings: Stores booking details (booking_id, session_id, student_id, status, created_at).  
 
-Feedback: Stores feedback details (ID, session_id, student_id, rating, comments).   
+Feedback: Stores feedback details (feedback_id, session_id, student_id, rating, comments).   
 
 Relationships:
 
