@@ -12,18 +12,20 @@ TEAM MATES:
 
 CONTENT OUTLINE:
 1. **INTRODUCTION**
-The "Online Quran Tutor Registration and Booking System" is an online tool created to make scheduling classes and registering for classes easier. Through the provision of an effective, user-friendly interface for session management, this platform seeks to streamline the interaction between instructors and students. By concentrating on essential features like scheduling and registration, the system improves learning by cutting down on administrative work and making sure instructors and students can simply manage their calendars.
 
-3. **OBJECTIVES**
-The Online Tutor Registration and Booking System's main goals are:
+   The "Online Quran Tutor Registration and Booking System" is an online tool created to make scheduling classes and registering for classes easier. Through the provision of an       effective, user-friendly interface for session management, this platform seeks to streamline the interaction between instructors and students. By concentrating on essential        features like scheduling and registration, the system improves learning by cutting down on administrative work and making sure instructors and students can simply manage their     calendars.
 
-**Simplify the Registration Process:** Give students access to an intuitive registration portal so they may sign up for classes.  
+2. **OBJECTIVES**
+ 
+   The Online Tutor Registration and Booking System's main goals are:
 
-**Effective Scheduling:** Provide students with the ability to swiftly schedule available times, and provide tutors the ability to oversee and validate these reservations.
+    **2.1 Simplify the Registration Process:** Give students access to an intuitive registration portal so they may sign up for classes.  
 
-**Send Students messages Automatically:** Students can get messages about their registration status and session details automatically.  
+    **2.2 Effective Scheduling:** Provide students with the ability to swiftly schedule available times, and provide tutors the ability to oversee and validate these reservations.
 
-**Improved User Experience:** To guarantee a seamless and enjoyable experience for instructors and students alike, design an intuitive and user-friendly interface.
+    **2.3 Send Students messages Automatically:** Students can get messages about their registration status and session details automatically.  
+
+    **2.4 Improved User Experience:** To guarantee a seamless and enjoyable experience for instructors and students alike, design an intuitive and user-friendly interface.
 
 3. **FEATURES AND FUNCTIONALITIES**
 4. **ERD (DATABASE TABLES WITH RELATIONSHIP)**
