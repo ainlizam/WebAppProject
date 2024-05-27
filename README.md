@@ -68,93 +68,26 @@ CONTENT OUTLINE:
    **3.11 Feedback and ratings:** Allow students to submit comments and rank sessions after attending.
 
 5. **ERD (DATABASE TABLES WITH RELATIONSHIP)**
-
-!!P/S: Create er diagram based on the description below then paste the actual er diagram , thank you!! 
-
-Tables:
-
-Users: Stores user information (user_id, full_name, email, password, gender, age, user_type (student/tutor)).  
-
-Tutors: Stores tutor-specific information (tutor_id, user_id, qualifications, phone_no).  
-
-Students: Stores student-specific information (student_id, user_id, education_status, preferences (ustaz/ustazah)).  
-
-Sessions: Stores session information (session_id, tutor_id, title, description, time, day, price).  
-
-Bookings: Stores booking details (booking_id, session_id, student_id, status, created_at).  
-
-Feedback: Stores feedback details (feedback_id, session_id, student_id, rating, comments).   
-
-Relationships:
-
-Users (one-to-one) -> Tutors  
-
-Users (one-to-one) -> Students  
-
-Tutors (one-to-many) -> Sessions  
-
-Sessions (one-to-many) -> Bookings  
-
-Students (one-to-many) -> Bookings  
-
-Sessions (one-to-many) -> Feedback  
-
-Students (one-to-many) -> Feedback  
-![ee drawio (6)](https://github.com/ainlizam/WebAppProject/assets/170220995/969ad4cd-d0c0-498d-b973-24f02a12c8bb)
-
+ 
+![ee drawio (6)](https://github.com/ainlizam/WebAppProject/assets/170220995/969ad4cd-d0c0-498d-b973-24f02a12c8bb)  
 
 
 7. **SEQUENCE DIAGRAM TO REPRESENT THE INTERACTION**
 
-!!P/S: Create sequence diagram based on the description below (open edit to have a proper view. the allignment was slightly run, but hopefully u still able to understand the picture) then paste the actual one below , thank you!!  
-
    **7.1 Registration and Booking Phase:**
 
-   Student         System           Tutor
-   |               |               |
-   |---Request Booking--->|        |
-   |               |               |
-   |               |---Check Availability--->|
-   |               |               |
-   |<---Available/Full--|               |
-   |               |               |
-   |---Submit Registration--->|        |
-   |               |               |
-   |               |---Register/Waitlist--->|
-   |               |               |
-   |               |---Notify Tutor--->|
-   |               |               |
-   |               |<---Approval/Rejection--| 
-   |               |               |
-   |<---Confirmation/Rejection--|        |  
    ![image](https://github.com/ainlizam/WebAppProject/assets/170220596/8feb26ff-2fc4-4af5-8a14-a521b146e1d6)
 
    **7.2 Cancellation and Rescheduling:**  
    
-   Student         System
-   |               |
-   |---Request Cancel/Reschedule--->|
-   |               |
-   |               |---Process Request--->|
-   |               |
-   |<---Confirmation--| 
    ![image](https://github.com/ainlizam/WebAppProject/assets/170220596/06b286eb-fb30-4782-a29c-edfe6c1b27a4)
 
    **7.3 Feedback Submission:**  
-   
-   Student         System
-   |               |
-   |---Submit Feedback--->|
-   |               |
-   |               |---Store Feedback--->|
-   |               |
-   |<---Update Ratings--|
    
    ![image](https://github.com/ainlizam/WebAppProject/assets/170220596/dde6d648-03bb-4937-9288-6d3c6dd68631)
 
 
 9. **REFERENCES**
 
-P/S: For formatting and styling of your proposal via README.md file refer to Markdown 
-syntax. Submit the URL of your GitHub README.md file to iTaleem and respect the 
-deadline.
+    This idea was Inspired by https://www.alquran4life.com/ website
+
