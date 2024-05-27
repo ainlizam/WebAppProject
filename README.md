@@ -100,7 +100,8 @@ Students (one-to-many) -> Bookings
 Sessions (one-to-many) -> Feedback  
 
 Students (one-to-many) -> Feedback  
-![ee drawio (3)](https://github.com/ainlizam/WebAppProject/assets/170220995/ea4e90a2-59d0-49ad-a8b9-fadb72396abd)
+![ee drawio (6)](https://github.com/ainlizam/WebAppProject/assets/170220995/969ad4cd-d0c0-498d-b973-24f02a12c8bb)
+
 
 
 7. **SEQUENCE DIAGRAM TO REPRESENT THE INTERACTION**
