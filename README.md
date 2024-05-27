@@ -127,7 +127,7 @@ Students (one-to-many) -> Feedback
    |               |<---Approval/Rejection--| 
    |               |               |
    |<---Confirmation/Rejection--|        |  
-   ![registration and booking phase](https://github.com/ainlizam/WebAppProject/assets/170220596/35859117-c9c1-4064-a7c8-fc1960a1238f)
+   ![image](https://github.com/ainlizam/WebAppProject/assets/170220596/8feb26ff-2fc4-4af5-8a14-a521b146e1d6)
 
    **7.2 Cancellation and Rescheduling:**  
    
@@ -138,7 +138,7 @@ Students (one-to-many) -> Feedback
    |               |---Process Request--->|
    |               |
    |<---Confirmation--| 
-   ![cancel   reschedul](https://github.com/ainlizam/WebAppProject/assets/170220596/aff38ea8-06a1-4cd2-a770-dcbd8f9ae96f)
+   ![image](https://github.com/ainlizam/WebAppProject/assets/170220596/06b286eb-fb30-4782-a29c-edfe6c1b27a4)
 
    **7.3 Feedback Submission:**  
    
@@ -150,7 +150,7 @@ Students (one-to-many) -> Feedback
    |               |
    |<---Update Ratings--|
    
-   ![feedback](https://github.com/ainlizam/WebAppProject/assets/170220596/e7362ed7-03f1-482c-b67c-999e1856a2b6)
+   ![image](https://github.com/ainlizam/WebAppProject/assets/170220596/dde6d648-03bb-4937-9288-6d3c6dd68631)
 
 
 9. **REFERENCES**
